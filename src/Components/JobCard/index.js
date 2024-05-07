@@ -30,7 +30,7 @@ export const JobCard = ({ job }) => {
         <div className={Styles["show-more-action"]}>Show More</div>
         <div className={Styles["job-experience-info"]}>
           <h3>Minimum Experience</h3>
-          <h2>{job?.minExp} years</h2>
+          <h2>{job?.minExp ? job.minExp : 0} years</h2>
         </div>
       </div>
       <div className={Styles["action-buttons__container"]}>

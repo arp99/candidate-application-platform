@@ -81,13 +81,13 @@
   );
 }
 
-.company-info > .heading {
+.company-info .heading {
   font-size: 1rem;
   line-height: 1.5;
   font-weight: 500;
 }
 
-.company-info > .job-description {
+.company-info .job-description {
   white-space: pre-wrap;
   font-size: 14px;
 }
